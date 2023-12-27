@@ -13,7 +13,7 @@ cask "youtube-music" do
 
   auto_updates true
 
-  depends_on_macos ">= :catalina"
+  depends_on macos: ">= :catalina"
 
   app "YouTube Music.app"
 
