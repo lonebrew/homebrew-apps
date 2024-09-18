@@ -1,9 +1,9 @@
 cask "youtube-music" do
   arch arm: "-arm64", intel: ""
 
-  version "3.1.1"
-  sha256 arm:   "feddfcaf7b1cb2e7c5e59506230d97044068a8c5151024e689fe58252d6c5648",
-         intel: "115bea67b4cc3aa2ddc30b129636af19d96d63b7d1029d8918f51aa303c913a8"
+  version "3.5.3"
+  sha256 arm:   "bae1133ac975cfd6cbaf280fed43754d7f020d0b5501d770c62b4afa053afb77",
+         intel: "00f14f59770ada1428dead6827f3a7e9e2c3e6ea64803e830ef52b0dd5e191f6"
 
   url "https://github.com/th-ch/youtube-music/releases/download/v#{version}/YouTube-Music-#{version}#{arch}.dmg",
       verified: "github.com/th-ch/youtube-music/"
@@ -12,7 +12,6 @@ cask "youtube-music" do
   homepage "https://th-ch.github.io/youtube-music/"
 
   auto_updates true
-
   depends_on macos: ">= :catalina"
 
   app "YouTube Music.app"
