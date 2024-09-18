@@ -1,22 +1,23 @@
-# Youtube Music Homebrew Tap
+# Lonebrew Tap
 
-This repository contains cask for use with Homebrew: https://brew.sh
+This repository contains Formulae and Casks to be used with Homebrew: https://brew.sh
 
-Installation can be accomplished with either of the following two methods -
-
-```
-brew install indianets/youtube-music/youtube-music
-```
-
-OR
-
-```
-brew tap indianets/youtube-music
-brew install youtube-music
+Tap this repository 
+```sh
+brew tap lonebrew/apps
 ```
 
-Additionally, use `--no-quarantine` with `brew install` on `arm64` machines, which otherwise ends up in _Signature verification failed_ error.
+Use `--no-quarantine` with `brew install` on `arm64` machines, which otherwise ends up in _Signature verification failed_ error.
 
-To upgrade manually, run `brew upgrade youtube-music`.
 
-To uninstall, run `brew uninstall youtube-music`. Additionally you can use `--zap` to remove app-data and if you want to remove the tap after uninstall, run `brew untap indianets/youtube-music`.
+## List of apps
+
+1. [Youtube Music](https://github.com/th-ch/youtube-music)
+```sh
+brew install lonebrew/apps/youtube-music --no-quarantine
+```
+
+2. [boring.notch](https://github.com/TheBoredTeam/boring.notch)
+```sh
+brew install lonebrew/apps/boring.notch --no-quarantine
+```
