@@ -12,6 +12,8 @@ Use `--no-quarantine` with `brew install` on `arm64` machines, which otherwise e
 
 ## List of apps
 
+### Casks
+
 1. [Youtube Music](https://github.com/th-ch/youtube-music)
 ```sh
 brew install lonebrew/apps/youtube-music --no-quarantine
@@ -20,4 +22,11 @@ brew install lonebrew/apps/youtube-music --no-quarantine
 2. [boring.notch](https://github.com/TheBoredTeam/boring.notch)
 ```sh
 brew install lonebrew/apps/boring.notch --no-quarantine
+```
+
+### Formula
+
+1. [ripasso](https://github.com/cortex/ripasso)
+```sh
+brew install lonebrew/apps/ripasso-cursive 
 ```
