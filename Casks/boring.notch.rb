@@ -1,6 +1,6 @@
 cask "boring.notch" do
   version "glowing-panda"
-  sha256 "d42a4fe767d833fa571439ec4d47dd9eaabaeff6eda5491909d636537f0f2469"
+  sha256 "d893583bfc7e9d14c9bc14d82bca61aad5a77770ec28cccee1b276c97733115a"
 
   url "https://github.com/TheBoredTeam/boring.notch/releases/download/#{version}/#{version.split("-").map(&:capitalize).join}.dmg"
   name "boring.notch"
