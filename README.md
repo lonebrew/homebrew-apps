@@ -19,7 +19,12 @@ Use `--no-quarantine` with `brew install` on `arm64` machines, which otherwise e
 brew install lonebrew/apps/youtube-music --no-quarantine
 ```
 
-2. [boring.notch](https://github.com/TheBoredTeam/boring.notch)
+2. [MacYTDL](https://github.com/section83/MacYTDL)
+```sh
+brew install lonebrew/apps/macytdl --no-quarantine
+```
+
+3. [boring.notch](https://github.com/TheBoredTeam/boring.notch)
 ```sh
 brew install lonebrew/apps/boring.notch --no-quarantine
 ```
