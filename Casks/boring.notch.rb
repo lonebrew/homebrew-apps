@@ -7,6 +7,12 @@ cask "boring.notch" do
   desc "Not so boring notch That Rocks"
   homepage "https://github.com/TheBoredTeam/boring.notch"
 
+  livecheck do
+    url :url
+    regex(/(\w+[.-]\w+)/i)
+    strategy :github_latest
+  end
+
   depends_on macos: ">= :sonoma"
 
   app "boringNotch.app"
