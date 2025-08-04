@@ -1,9 +1,9 @@
 cask "youtube-music" do
   arch arm: "-arm64", intel: ""
 
-  version "3.9.0"
-  sha256 arm:   "76ab9ae2c30f37628ec1580f0b530cd56875a1a40335192257d388c18c6c613f",
-         intel: "7ba47ff3941f6d0caaf9dea9a6fa48cc4944f387b5ec44a75f0cb07455843c75"
+  version "3.10.0"
+  sha256 arm:   "ee30ccf7be62be04e17d94d54f0eedcfc74ee4048cde15fd9c9540ece1cecaf2",
+         intel: "36b3eeccf9f8545517aebd5490db7fb392c57006de27a770937e1c260755380d"
 
   url "https://github.com/th-ch/youtube-music/releases/download/v#{version}/YouTube-Music-#{version}#{arch}.dmg",
       verified: "github.com/th-ch/youtube-music/"
