@@ -15,6 +15,8 @@ cask "kde-connect" do
     regex(/href="kdeconnect-kde-([a-z]+-\d+)-macos-clang-#{arch}\.dmg/i)
   end
 
+  depends_on macos: ">= :monterey"
+
   app "KDE Connect.app"
 
   zap trash: [
