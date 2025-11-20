@@ -24,14 +24,14 @@ brew install lonebrew/apps/youtube-music --no-quarantine
 brew install lonebrew/apps/kde-connect
 ```
 
-3. [MacYTDL](https://github.com/section83/MacYTDL)
+3. [Okular](https://okular.kde.org/)
 ```sh
-brew install lonebrew/apps/macytdl --no-quarantine
+brew install lonebrew/apps/okular --no-quarantine
 ```
 
-4. [boring.notch](https://github.com/TheBoredTeam/boring.notch)
+4. [MacYTDL](https://github.com/section83/MacYTDL)
 ```sh
-brew install lonebrew/apps/boring.notch --no-quarantine
+brew install lonebrew/apps/macytdl --no-quarantine
 ```
 
 ### Formula
