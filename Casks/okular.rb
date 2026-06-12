@@ -15,7 +15,7 @@ cask "okular" do
     regex(/href="okular-([a-z]+-\d+)-macos-clang-#{arch}\.dmg/i)
   end
 
-  depends_on macos: :monterey
+  depends_on macos: :ventura
 
   app "okular.app"
 
