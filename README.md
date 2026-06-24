@@ -16,7 +16,9 @@ Use `--no-quarantine` with `brew install` on `arm64` machines, which otherwise e
 
 1. [Youtube Music](https://github.com/th-ch/youtube-music)
 ```sh
-brew install lonebrew/apps/youtube-music --no-quarantine
+brew install lonebrew/apps/youtube-music
+
+xattr -d com.apple.quarantine /Applications/YouTube\ Music.app
 ```
 
 2. [KDE Connect](https://kdeconnect.kde.org/)
@@ -26,12 +28,14 @@ brew install lonebrew/apps/kde-connect
 
 3. [Okular](https://okular.kde.org/)
 ```sh
-brew install lonebrew/apps/okular --no-quarantine
+brew install lonebrew/apps/okular
+
+xattr -d com.apple.quarantine /Applications/okular.app
 ```
 
 4. [MacYTDL](https://github.com/section83/MacYTDL)
 ```sh
-brew install lonebrew/apps/macytdl --no-quarantine
+brew install lonebrew/apps/macytdl
 ```
 
 ### Formula
