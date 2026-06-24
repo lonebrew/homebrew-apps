@@ -1,9 +1,9 @@
 cask "okular" do
   arch arm: "arm64", intel: "x86_64"
 
-  version "master-7419"
-  sha256 arm:   "bba8ffbfa4a524a7fb0c95f08551eb389c2d8d45438b632cc7adcd32158c1bdd",
-         intel: "5c0e996b7b1bd08d93d58ce396b6886ad10248cbab584964f83657fd8fe5ef8d"
+  version "master-7482"
+  sha256 arm:   "3cd04872383e405d5f9199b46586caeb85bd7f4ef3ec22a8c21933d08ac1bd7e",
+         intel: "0e4f3efafbb74a114e733a1f1474a1f81c1958f4dfeb87d5ab1d39bb0cced51a"
 
   url "https://cdn.kde.org/ci-builds/graphics/okular/master/macos-#{arch}/okular-#{version}-macos-clang-#{arch}.dmg"
   name "KDE Connect"
