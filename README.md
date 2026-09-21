@@ -2,7 +2,7 @@
 
 This repository contains Formulae and Casks to be used with Homebrew: https://brew.sh
 
-Tap this repository 
+Tap this repository
 ```sh
 brew tap lonebrew/apps
 ```
@@ -21,19 +21,14 @@ brew install lonebrew/apps/youtube-music
 xattr -d com.apple.quarantine /Applications/YouTube\ Music.app
 ```
 
-2. [KDE Connect](https://kdeconnect.kde.org/)
-```sh
-brew install lonebrew/apps/kde-connect
-```
-
-3. [Okular](https://okular.kde.org/)
+2. [Okular](https://okular.kde.org/)
 ```sh
 brew install lonebrew/apps/okular
 
 xattr -d com.apple.quarantine /Applications/okular.app
 ```
 
-4. [MacYTDL](https://github.com/section83/MacYTDL)
+3. [MacYTDL](https://github.com/section83/MacYTDL)
 ```sh
 brew install lonebrew/apps/macytdl
 ```
@@ -42,5 +37,5 @@ brew install lonebrew/apps/macytdl
 
 1. [ripasso](https://github.com/cortex/ripasso)
 ```sh
-brew install lonebrew/apps/ripasso-cursive 
+brew install lonebrew/apps/ripasso-cursive
 ```
