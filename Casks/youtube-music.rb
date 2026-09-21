@@ -1,9 +1,9 @@
 cask "youtube-music" do
-  arch arm: "-arm64", intel: ""
+  arch arm: "-arm64"
 
-  version "3.11.0"
-  sha256 arm:   "a2d68bd80117ce376a08229f5cfb0a4570d98aba4e56af8040c725b22e856e0d",
-         intel: "27f74b53c7c4dd8c77ce44d7c7d0f955cb083e5251701e6ca2b3781e85c4e373"
+  version "3.12.0"
+  sha256 arm:   "1266b1efdf3cd22276b989445ea14f0afd6bc751c26fc0983f24dd527be2f724",
+         intel: "76e4a859cfbb777ca4383f83455a4ee01a8345356b86f0a91395b9e7dda6a863"
 
   url "https://github.com/pear-devs/pear-desktop/releases/download/v#{version}/YouTube-Music-#{version}#{arch}.dmg"
   name "YouTube Music"
@@ -11,8 +11,7 @@ cask "youtube-music" do
   homepage "https://github.com/pear-devs/pear-desktop/"
 
   auto_updates true
-
-  depends_on :monterey
+  depends_on macos: :monterey
 
   app "YouTube Music.app"
 
