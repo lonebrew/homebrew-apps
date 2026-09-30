@@ -17,5 +17,8 @@ cask "uad-ng" do
 
   binary "uad-ng-macos#{arch}", target: "uad"
 
-  zap trash: "~/Library/Caches/uad"
+  zap trash: [
+    "~/Library/Application Support/uad",
+    "~/Library/Caches/uad",
+  ]
 end
