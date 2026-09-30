@@ -33,6 +33,11 @@ xattr -d com.apple.quarantine /Applications/okular.app
 brew install lonebrew/apps/macytdl
 ```
 
+4. [UAD-NG](https://github.com/Universal-Debloater-Alliance/universal-android-debloater-next-generation)
+```sh
+brew install lonebrew/apps/uad-ng
+```
+
 ### Formula
 
 1. [ripasso](https://github.com/cortex/ripasso)
