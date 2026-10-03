@@ -12,12 +12,19 @@ cask "plexo" do
   homepage "https://anmolkapil.github.io/plexo/"
 
   livecheck do
-    skip "Pre-release versions are maintained manually"
+    url :url
+    regex(/^v?(\d+(?:\.\d+)+(?:-rc\.\d+)?)$/i)
+    strategy :github_releases do |json, regex|
+      json.filter_map do |release|
+        next if release["draft"]
+
+        match = release["tag_name"]&.match(regex)
+        match[1] if match
+      end
+    end
   end
 
   depends_on macos: :ventura
 
   app "Plexo.app"
-
-  zap trash: []
 end
