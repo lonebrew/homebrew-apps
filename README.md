@@ -21,19 +21,26 @@ brew install lonebrew/apps/youtube-music
 xattr -d com.apple.quarantine /Applications/YouTube\ Music.app
 ```
 
-2. [Okular](https://okular.kde.org/)
+2. [Plexo](https://anmolkapil.github.io/plexo)
+```sh
+brew install lonebrew/apps/plexo
+
+xattr -d com.apple.quarantine /Applications/Plexo.app
+```
+
+3. [Okular](https://okular.kde.org/)
 ```sh
 brew install lonebrew/apps/okular
 
 xattr -d com.apple.quarantine /Applications/okular.app
 ```
 
-3. [MacYTDL](https://github.com/section83/MacYTDL)
+4. [MacYTDL](https://github.com/section83/MacYTDL)
 ```sh
 brew install lonebrew/apps/macytdl
 ```
 
-4. [UAD-NG](https://github.com/Universal-Debloater-Alliance/universal-android-debloater-next-generation)
+5. [Universal Android Debloater Next Generation](https://github.com/Universal-Debloater-Alliance/universal-android-debloater-next-generation)
 ```sh
 brew install lonebrew/apps/uad-ng
 ```

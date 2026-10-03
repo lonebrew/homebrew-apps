@@ -11,7 +11,6 @@ cask "uad-ng" do
   desc "Cross-platform GUI written in Rust using ADB to debloat non-rooted Android devices"
   homepage "https://github.com/Universal-Debloater-Alliance/universal-android-debloater-next-generation/"
 
-  auto_updates true
   depends_on cask: "android-platform-tools"
   depends_on :macos
 
