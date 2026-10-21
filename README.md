@@ -28,19 +28,26 @@ brew install lonebrew/apps/plexo
 xattr -d com.apple.quarantine /Applications/Plexo.app
 ```
 
-3. [Okular](https://okular.kde.org/)
+3. [Chrome Themer](https://github.com/pilotbellyt-spec/ChromeThemer)
+```sh
+brew install lonebrew/apps/chromethemer
+
+xattr -d com.apple.quarantine /Applications/ChromeThemer.app
+```
+
+4. [Okular](https://okular.kde.org/)
 ```sh
 brew install lonebrew/apps/okular
 
 xattr -d com.apple.quarantine /Applications/okular.app
 ```
 
-4. [MacYTDL](https://github.com/section83/MacYTDL)
+5. [MacYTDL](https://github.com/section83/MacYTDL)
 ```sh
 brew install lonebrew/apps/macytdl
 ```
 
-5. [Universal Android Debloater Next Generation](https://github.com/Universal-Debloater-Alliance/universal-android-debloater-next-generation)
+6. [Universal Android Debloater Next Generation](https://github.com/Universal-Debloater-Alliance/universal-android-debloater-next-generation)
 ```sh
 brew install lonebrew/apps/uad-ng
 ```
