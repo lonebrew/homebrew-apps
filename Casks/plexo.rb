@@ -2,9 +2,9 @@ cask "plexo" do
   arch arm:   "arm",
        intel: "x"
 
-  version "1.0.0-rc.11"
-  sha256 arm:   "2747df41bee7a676596788b6080d2bb20fbfb7dbefd9b1680291e0a2ba17420c",
-         intel: "505325c7919db731f6804bba34dfe14757cd476eb264af44654b3a69606c73f5"
+  version "1.0.0-rc.15"
+  sha256 arm:   "3e05a6ada7e50bf401472c0dbf14a48a709404d36a4b8bf8572ea88a3e57e64d",
+         intel: "1e02f606efbf0ba1b81bc55d0e48599bec39ba44a5734d9c17d07db46b0453ed"
 
   url "https://github.com/anmolkapil/plexo/releases/download/v#{version}/plexo-#{version}-#{arch}64.dmg"
   name "Plexo"
