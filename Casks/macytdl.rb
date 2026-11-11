@@ -1,6 +1,6 @@
 cask "macytdl" do
-  version "1.31.2"
-  sha256 "a54bd420e70398fe14cb2d30714b9d33c439a37ac9a4e4d91e91593914943b8e"
+  version "1.32"
+  sha256 "359e5ec34eabd4689d1016d0ead238a8b8358cccf4d71a80ccab12ac84b8d9c8"
 
   url "https://github.com/section83/MacYTDL/releases/download/#{version}/MacYTDL-v#{version}.dmg"
   name "macytdl"
