@@ -21,33 +21,40 @@ brew install lonebrew/apps/youtube-music
 xattr -d com.apple.quarantine /Applications/YouTube\ Music.app
 ```
 
-2. [Plexo](https://anmolkapil.github.io/plexo)
+2. [Nuvio](https://nuvio.tv/)
+```sh
+brew install lonebrew/apps/nuvio
+
+xattr -d com.apple.quarantine /Applications/Nuvio.app
+```
+
+3. [Plexo](https://anmolkapil.github.io/plexo)
 ```sh
 brew install lonebrew/apps/plexo
 
 xattr -d com.apple.quarantine /Applications/Plexo.app
 ```
 
-3. [Chrome Themer](https://github.com/pilotbellyt-spec/ChromeThemer)
+4. [Chrome Themer](https://github.com/pilotbellyt-spec/ChromeThemer)
 ```sh
 brew install lonebrew/apps/chromethemer
 
 xattr -d com.apple.quarantine /Applications/ChromeThemer.app
 ```
 
-4. [Okular](https://okular.kde.org/)
+5. [Okular](https://okular.kde.org/)
 ```sh
 brew install lonebrew/apps/okular
 
 xattr -d com.apple.quarantine /Applications/okular.app
 ```
 
-5. [MacYTDL](https://github.com/section83/MacYTDL)
+6. [MacYTDL](https://github.com/section83/MacYTDL)
 ```sh
 brew install lonebrew/apps/macytdl
 ```
 
-6. [Universal Android Debloater Next Generation](https://github.com/Universal-Debloater-Alliance/universal-android-debloater-next-generation)
+7. [Universal Android Debloater Next Generation](https://github.com/Universal-Debloater-Alliance/universal-android-debloater-next-generation)
 ```sh
 brew install lonebrew/apps/uad-ng
 ```
