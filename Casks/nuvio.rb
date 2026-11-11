@@ -13,7 +13,8 @@ cask "nuvio" do
 
   livecheck do
     url :url
-    regex(/^v?(\d+(?:\.\d+)+(?:-rc\.\d+)?)$/i)
+    regex(/^v?(\d+(?:\.\d+)+(?:-[0-9A-Za-z]+(?:[.-][0-9A-Za-z]+)*)?)$/i)
+
     strategy :github_releases do |json, regex|
       json.filter_map do |release|
         next if release["draft"]
