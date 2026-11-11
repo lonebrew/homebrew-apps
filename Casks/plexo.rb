@@ -27,4 +27,9 @@ cask "plexo" do
   depends_on macos: :ventura
 
   app "Plexo.app"
+
+  zap trash: [
+    "~/Library/Application Support/com.apple.sharedfilelist/com.apple.LSSharedFileList.ApplicationRecentDocuments/com.plexo.app.sfl*",
+    "~/Library/Preferences/com.plexo.app.plist",
+  ]
 end
