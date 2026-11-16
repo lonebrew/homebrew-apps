@@ -14,7 +14,7 @@ Use `--no-quarantine` with `brew install` on `arm64` machines, which otherwise e
 
 ### Casks
 
-1. [Youtube Music](https://github.com/th-ch/youtube-music)
+1. [Youtube Music](https://github.com/pear-devs/pear-desktop)
 ```sh
 brew install lonebrew/apps/youtube-music
 
