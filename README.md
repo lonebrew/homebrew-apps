@@ -7,9 +7,6 @@ Tap this repository
 brew tap lonebrew/apps
 ```
 
-Use `--no-quarantine` with `brew install` on `arm64` machines, which otherwise ends up in _Signature verification failed_ error.
-
-
 ## List of apps
 
 ### Casks
